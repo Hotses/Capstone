@@ -1,0 +1,475 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        color: white;
+    }
+    
+    body {
+        /* padding: 1.5rem 1.5rem 1.5rem; */
+        /* height: 100vh;
+    width: 100vw; */
+        font-family: "Open Sans", sans-serif;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .body {
+        background-color: hsl(217, 28%, 15%);
+        padding: 1.5rem 1.5rem 1.5rem;
+        padding-bottom: 4rem;
+    }
+    
+    .card img {
+        width: 120px;
+        padding-right: 1rem;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        font-family: "Raleway", sans-serif;
+    }
+    
+    #header {
+        display: flex;
+        font-weight: 700;
+    }
+    
+    .headerLinks {
+        font-weight: 400;
+        padding-top: 0.5rem;
+    }
+    
+    .intro {
+        text-align: center;
+        padding-top: 4.5rem;
+    }
+    
+    .intro img {
+        width: 310px;
+    }
+    
+    .intro h1 {
+        font-size: 22px;
+        line-height: 1.5;
+        font-weight: 700;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+    
+    .intro p {
+        font-weight: 400;
+        font-size: 16.3px;
+        line-height: 1.5;
+        padding-bottom: 1.5rem;
+    }
+    
+    .intro button {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 80%;
+        border-radius: 2rem;
+        background-color: hsl(198, 60%, 50%);
+        border: none;
+        cursor: pointer;
+    }
+    
+    .design {
+        padding-top: 8rem;
+        text-align: center;
+        padding-bottom: 4rem;
+    }
+    
+    .design img {
+        max-height: 80px;
+    }
+    
+    #design1 {
+        width: 85px;
+    }
+    
+    .design1 {
+        padding-top: 7rem;
+    }
+    
+    .design2 {
+        padding-top: 6rem;
+    }
+    
+    #design2 {
+        width: 85px;
+    }
+    
+    .design3 {
+        padding-top: 6rem;
+    }
+    
+    #design3 {
+        width: 100px;
+    }
+    
+    .design4 {
+        padding-top: 6rem;
+    }
+    
+    #design4 {
+        width: 85px;
+    }
+    
+    .design h1 {
+        font-size: 22px;
+        line-height: 1.5;
+        font-weight: 700;
+        padding-top: 2rem;
+        padding-bottom: 1rem
+    }
+    
+    .design p {
+        font-weight: 400;
+        line-height: 1.5;
+    }
+    
+    .stayProductive {
+        text-align: center;
+        padding-top: 5rem;
+        font-family: sans-serif;
+    }
+    
+    #stayProductive {
+        width: 310px;
+    }
+    
+    .stayProductive h1 {
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 700;
+        padding-top: 2rem;
+        padding-bottom: 1rem
+    }
+    
+    .stayProductive p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.5;
+        padding-top: 1rem;
+        padding-bottom: 0.3rem;
+        text-align: left;
+    }
+    
+    #p3 {
+        color: aqua;
+        padding-right: 0rem;
+    }
+    
+    .arrow {
+        display: flex;
+    }
+    
+    #arrow {
+        width: 35px;
+        height: 35px;
+        padding-top: 1.3rem;
+    }
+    
+    .testimony {
+        padding: 6rem 1.5rem 1.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #quote {
+        width: 50px;
+    }
+    
+    .profile1 {
+        background-color: hsl(219, 30%, 18%);
+        border-radius: 5px;
+        padding: 1.5rem 1rem 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .info1 {
+        display: flex;
+    }
+    
+    .testimony p {
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 1.5;
+        padding-bottom: 1rem;
+    }
+    
+    .testimony h1 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    
+    .testimony img {
+        width: 40px;
+        height: 30px;
+    }
+    
+    .profile2 {
+        background-color: hsl(219, 30%, 18%);
+        border-radius: 5px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        padding: 1.5rem 1rem 1rem;
+    }
+    
+    .name p {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 1.5;
+        padding-bottom: 1rem;
+    }
+    
+    .profile3 {
+        background-color: hsl(219, 30%, 18%);
+        border-radius: 5px;
+        padding: 1.5rem 1rem 1rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .footer {
+        background-color: hsl(216, 53%, 9%);
+        padding: 1.5rem 1.5rem 1.5rem;
+        text-align: center;
+    }
+    
+    .register {
+        background-color: hsl(217, 28%, 15%);
+        border-radius: 5px;
+        padding: 1.6rem 1.3rem 1.3rem;
+        z-index: 50%;
+    }
+    
+    .register h1 {
+        font-size: 20px;
+        line-height: 1.5;
+        font-weight: 700;
+        padding-top: 1rem;
+        padding-bottom: 1rem
+    }
+    
+    .register p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    
+    input {
+        margin-top: 2rem;
+        margin-bottom: 1.3rem;
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        width: 90%;
+        border: none;
+        border-radius: 20px;
+    }
+    
+    h2 {
+        font-size: 15px;
+    }
+    
+    #reg {
+        padding-top: 0.8rem;
+        padding-bottom: 0.8rem;
+        width: 90%;
+        border: none;
+        border-radius: 20px;
+        background-color: hsl(198, 60%, 50%);
+    }
+    
+    .fylo {
+        padding-top: 6rem;
+        padding-bottom: 4rem;
+        text-align: left;
+    }
+    
+    #fylo {
+        width: 170px;
+    }
+    
+    .contact {
+        text-align: left;
+    }
+    
+    .contact img {
+        width: 40px;
+        height: 20px;
+    }
+    
+    .contact p {
+        font-weight: 400;
+        font-size: 17.5px;
+        line-height: 1.5;
+    }
+    
+    .first {
+        display: flex;
+        padding-bottom: 1rem;
+    }
+    
+    .second {
+        padding-bottom: 5rem;
+    }
+    
+    .phone {
+        display: flex;
+        padding-bottom: 1rem;
+    }
+    
+    .address {
+        display: flex;
+        padding-bottom: 1rem;
+    }
+    
+    #location {
+        width: 30px;
+        margin-right: 0.8rem;
+    }
+    
+    h3 {
+        font-weight: 400;
+    }
+    
+    .third {
+        padding-bottom: 4rem;
+    }
+    
+    .fourth {
+        padding-bottom: 5rem;
+    }
+    
+    .fifth {
+        text-align: center;
+        color: white;
+    }
+    
+    .fifth img {
+        width: 55px;
+        height: 55px;
+    }
+    
+    @media screen and (min-width: 640px) {
+        .intro {
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+        .intro img {
+            width: 500px;
+        }
+        .intro h1 {
+            font-size: 30px;
+        }
+        .intro p {
+            font-size: 20px;
+        }
+        .intro button {
+            width: 60%;
+        }
+        .design {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+        .one {
+            display: flex;
+            column-gap: 3rem;
+        }
+        .two {
+            display: flex;
+            column-gap: 3rem;
+        }
+        .design h1 {
+            font-size: 19.9px;
+        }
+        .design p {
+            font-size: 14px;
+        }
+        .stayProductive {
+            display: flex;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        .stayProductive h1 {
+            text-align: left;
+            font-size: 40px;
+        }
+        .stayProductive p {
+            font-size: 15px;
+        }
+        #stayProductive {
+            width: 500px;
+        }
+        .testimony {
+            display: flex;
+            flex-direction: row;
+            column-gap: 2rem;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+        .testimony P {
+            font-size: 13px;
+        }
+        /* .mark {
+            display: flex;
+        } */
+        .profile1 .profile2 .profile3 {
+            padding-top: 2rem;
+            margin-bottom: 1rem;
+        }
+        .profile2 {
+            margin-top: 4rem;
+        }
+        .profile3 {
+            margin-top: 4rem;
+        }
+        .testimony p {
+            font-size: 14px;
+        }
+        .register {
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        #reg {
+            margin-top: 0.5rem;
+            width: 100%;
+        }
+        h2 {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        input {
+            width: 150%;
+        }
+        .contact {
+            padding-left: 10%;
+            padding-right: 10%;
+            display: flex;
+            column-gap: 2.5rem;
+        }
+        #reduce {
+            font-size: 14px;
+        }
+        .fifth {
+            display: flex;
+        }
+        h3 {
+            font-size: 14px;
+        }
+        .fylo {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
